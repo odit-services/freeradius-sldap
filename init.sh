@@ -50,8 +50,8 @@ FILES_644=( "ca.pem" "server.crt" "server.csr" "dh" )
 for i in "${FILES_644[@]}"
 do
 	if [ -f "/certs/$i" ]; then
-	    cp /certs/$i /etc/raddb/certs/$i
-	    chmod 644 /etc/raddb/certs/$i
+	    cp /certs/$i /etc/freeradius/certs/$i
+	    chmod 644 /etc/freeradius/certs/$i
 	fi
 done
 
