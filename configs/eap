@@ -171,7 +171,7 @@ eap {
 	#  authenticate via EAP-TLS!  This is likely not what you want.
 	tls-config tls-common {
 		private_key_password = whatever
-		private_key_file = ${certdir}/server.pem
+		private_key_file = /etc/freeradius/certs/server.pem
 
 		#  If Private key & Certificate are located in
 		#  the same file, then private_key_file &
@@ -183,7 +183,7 @@ eap {
 		#  only the server certificate, but ALSO all
 		#  of the CA certificates used to sign the
 		#  server certificate.
-		certificate_file = ${certdir}/server.pem
+		certificate_file = /etc/freeradius/certs/server.pem
 
 		#  Trusted Root CA list
 		#
@@ -236,7 +236,7 @@ eap {
 		#
 		#  	openssl dhparam -out certs/dh 2048
 		#
-		#dh_file = ${certdir}/dh
+		#dh_file = /etc/freeradius/certs/dh
 
 		#
 		#  If your system doesn't have /dev/urandom,
