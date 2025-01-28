@@ -1,5 +1,7 @@
 # FreeRadius - Google Secure LDAP
 
+![GitHub License](https://img.shields.io/github/license/odit-services/freeradius-sldap?style=for-the-badge) ![GitHub top language](https://img.shields.io/github/languages/top/odit-services/freeradius-sldap?style=for-the-badge) ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/odit-services/freeradius-sldap?style=for-the-badge) ![GHCR Downloads](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fipitio.github.io%2Fbackage%2Fodit-services%2Ffreeradius-sldap%2Ffreeradius-sldap.json&query=%24.downloads&style=for-the-badge&logo=docker&label=GHCR-Downloads) ![GHCR Image Size](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fipitio.github.io%2Fbackage%2Fodit-services%2Ffreeradius-sldap%2Ffreeradius-sldap.json&query=%24.size&style=for-the-badge&logo=docker&label=Size)
+
 Containerized FreeRadius server with Google Secure LDAP support built for amd64 and arm64 platforms.
 
 Based on the work of:
