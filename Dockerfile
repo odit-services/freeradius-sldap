@@ -1,7 +1,7 @@
 FROM freeradius/freeradius-server:3.2.6
 
 LABEL org.opencontainers.image.source="https://github.com/odit.services/freeradius-sldap"
-LABEL org.opencontainers.image.description="Freeradius preconfigured to work with Google's secure ldap aus the authentication backend"
+LABEL org.opencontainers.image.description="FreeRADIUS preconfigured to work with Google's secure ldap as the authentication backend"
 LABEL org.opencontainers.image.licenses="GPL-2.0"
 
 COPY configs/clients.conf /etc/freeradius/clients.conf
