@@ -9,7 +9,13 @@ Based on the work of:
 - The [FreeRADIUS](https://github.com/FreeRADIUS/freeradius-server) maintainers
 - [hacor's](https://github.com/hacor) [unifi-freeradius-ldap](https://github.com/hacor/unifi-freeradius-ldap) project
 
-## Generate your own certificates
+## Run locally 🚀
+
+```bash
+docker compose up
+```
+
+## Generate your own certificates 🔐
 
 You can use OpenSSL to generate your own certificates. The following steps will guide you through the process.
 
