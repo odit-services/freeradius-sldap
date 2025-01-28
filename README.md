@@ -15,7 +15,20 @@ Based on the work of:
 docker compose up
 ```
 
-## Generate your own certificates 🔐
+## Config 🛠️
+
+### Environment variables 📖
+
+| ENV-Var                | Required | Sample           | Description                                    |
+| ---------------------- | -------- | ---------------- | ---------------------------------------------- |
+| `ACCESS_ALLOWED_CIDR`  | Yes      | `192.168.1.0/24` | The CIDR allowed to access the radius service  |
+| `SHARED_SECRET`        | Yes      | `testing123`     | Radius pre shared secret                       |
+| `BASE_DOMAIN`          | Yes      | `example`        | Base of your domain (`example.com`->`example`) |
+| `DOMAIN_EXTENSION`     | Yes      | `com`            | TLD of your domain (`example.com`->`com`)      |
+| `GOOGLE_LDAP_USERNAME` | Yes      | `serviceuser`    | Credentials generated from Google Secure LDAP  |
+| `GOOGLE_LDAP_PASSWORD` | Yes      | `password`       | Credentials generated from Google Secure LDAP  |
+
+### Generate your own certificates 🔐
 
 You can use OpenSSL to generate your own certificates. The following steps will guide you through the process.
 
