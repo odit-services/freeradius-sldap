@@ -1,4 +1,6 @@
-# FreeRadius - Google Secure LDAP 
+# FreeRadius - Google Secure LDAP
+
+Containerized FreeRadius server with Google Secure LDAP support built for amd64 and arm64 platforms.
 
 Based on the work of:
 
