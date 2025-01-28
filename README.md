@@ -52,4 +52,3 @@ You can use OpenSSL to generate your own certificates. The following steps will 
     ```bash
     openssl dhparam -out dh 4096
     ```
-
