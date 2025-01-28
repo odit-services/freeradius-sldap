@@ -1,8 +1,9 @@
 services:
   unifi-freeradius-ldap:
     build: .
+    image: ghcr.io/odit-services/freeradius-sldap
     # command: -X
-    env_file: env/freeradius.env
+    env_file: .env
     volumes:
       - type: bind
         source: ./certs
